@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deadlock — Old Gods, New Blood</title>
+  <meta name="description" content="รีวิวเกม Deadlock เกมแนว Hero Shooter ผสม MOBA จาก Valve — ระบบการเล่น ฮีโร่ และเหตุผลที่ควรจับตามอง" />
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#home">
+      <span class="sigil-mini" aria-hidden="true"></span>
+      DEADLOCK
+    </a>
+
+    <nav class="nav__links" aria-label="เมนูหลัก">
+      <a href="#about">เกี่ยวกับเกม</a>
+      <a href="#gameplay">การเล่น</a>
+      <a href="#heroes">ฮีโร่</a>
+      <a href="#future">อนาคต</a>
+    </nav>
+
+    
+    <button class="theme-btn" id="themeToggle" type="button" aria-pressed="false">
+      <span class="theme-btn__label">โหมดมืด</span>
+    </button>
+  </header>
+
+  
+  <section class="hero" id="home">
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    
+    <div class="hero__sigil" aria-hidden="true">
+      <svg viewBox="0 0 200 200" class="sigil">
+        <circle class="sigil__ring sigil__ring--out" cx="100" cy="100" r="92" />
+        <circle class="sigil__ring" cx="100" cy="100" r="74" />
+        <circle class="sigil__ring sigil__ring--in" cx="100" cy="100" r="40" />
+        <g class="sigil__spokes">
+          <line x1="100" y1="8" x2="100" y2="192" />
+          <line x1="8" y1="100" x2="192" y2="100" />
+          <line x1="34" y1="34" x2="166" y2="166" />
+          <line x1="166" y1="34" x2="34" y2="166" />
+        </g>
+        <polygon class="sigil__eye" points="100,72 128,100 100,128 72,100" />
+        <circle class="sigil__pupil" cx="100" cy="100" r="9" />
+      </svg>
+    </div>
+
+    <p class="hero__eyebrow">Old Gods &nbsp;·&nbsp; New Blood</p>
+    <h1 class="hero__title">DEADLOCK</h1>
+    <p class="hero__tagline">
+      เกมแนว <strong>Hero Shooter</strong> ผสม <strong>MOBA</strong> จาก Valve
+      ในเมืองลึกลับที่เทพเจ้าโบราณยังไม่หลับใหล
+    </p>
+
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#about">รู้จักเกมนี้</a>
+      <a class="btn btn--ghost" href="#heroes">ดูฮีโร่</a>
+    </div>
+
+    <a class="hero__scroll" href="#about" aria-label="เลื่อนลง">
+      <span></span>
+    </a>
+  </section>
+
+  
+  <section class="section reveal" id="about">
+    <p class="section__eyebrow">ส่วนที่ 01</p>
+    <h2 class="section__title">Deadlock คืออะไร</h2>
+
+    <p class="section__lead">
+      Deadlock คือเกมที่ Valve กำลังพัฒนา ผสมความเป็น <strong>เกมยิงมุมมองบุคคลที่สาม</strong>
+      เข้ากับระบบ <strong>MOBA</strong> แบบ 6 ต่อ 6 ผู้เล่นต้องร่วมมือกันผลักดันเลน
+      เก็บทรัพยากร และทำลายฐานหลักของศัตรูที่เรียกว่า <strong>Patron</strong> เพื่อคว้าชัยชนะ
+      ทั้งหมดเกิดขึ้นในเมืองสไตล์ยุค 1930 ที่อบอวลด้วยกลิ่นอายลึกลับและเวทมนตร์
+    </p>
+
+    <div class="chips">
+      <span class="chip"><b>6v6</b> ทีมต่อสู้</span>
+      <span class="chip"><b>TPS + MOBA</b> สองแนวในเกมเดียว</span>
+      <span class="chip"><b>Valve</b> ผู้พัฒนา</span>
+      <span class="chip"><b>Early Access</b> ช่วงทดสอบ</span>
+    </div>
+  </section>
+
+  
+  <section class="section reveal" id="gameplay">
+    <p class="section__eyebrow">ส่วนที่ 02</p>
+    <h2 class="section__title">ระบบการเล่นและจุดเด่น</h2>
+    <p class="section__intro">
+      สิ่งที่ทำให้ Deadlock ต่างจากเกมอื่น คือการรวมความลึกของ MOBA
+      เข้ากับความมันของเกมยิง ทำให้ทุกแมตช์ต้องใช้ทั้งสมองและฝีมือ
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <span class="card__no">I</span>
+        <h3 class="card__title">เลนและ Patron</h3>
+        <p>ผลักดันมินเนียนไปตามเลน ทำลายป้อมและไกด์เดียน เพื่อเปิดทางไปทำลาย Patron ฐานหลักของศัตรู</p>
+      </article>
+
+      <article class="card">
+        <span class="card__no">II</span>
+        <h3 class="card__title">Souls และไอเทม</h3>
+        <p>เก็บ "Souls" จากการสู้เพื่อแลกเป็นไอเทมเสริมพลัง ยิ่งเล่นดี ฮีโร่ยิ่งแข็งแกร่งขึ้นเรื่อย ๆ</p>
+      </article>
+
+      <article class="card">
+        <span class="card__no">III</span>
+        <h3 class="card__title">การเคลื่อนที่</h3>
+        <p>ใช้ราง Zipline พุ่งข้ามเมืองได้รวดเร็ว เปิดโอกาสให้วางแผนบุก ถอย และโอบล้อมศัตรู</p>
+      </article>
+
+      <article class="card">
+        <span class="card__no">IV</span>
+        <h3 class="card__title">ปืนผสมสกิล</h3>
+        <p>ผสมการเล็งยิงแบบเกม Shooter เข้ากับสกิลเฉพาะตัวของฮีโร่ จังหวะการใช้สกิลคือกุญแจสู่ชัยชนะ</p>
+      </article>
+    </div>
+  </section>
+
+  
+  <section class="section reveal" id="heroes">
+    <p class="section__eyebrow">ส่วนที่ 03</p>
+    <h2 class="section__title">ฮีโร่และความสามารถ</h2>
+    <p class="section__intro">
+      เกมมีฮีโร่ให้เลือกหลากหลายสไตล์ กดปุ่ม <em>"เปิดดูสกิล"</em>
+      เพื่อดูบทบาทและความสามารถเด่นของแต่ละตัว
+    </p>
+    <p class="img-credit">ภาพตัวละคร: deadlock.wiki — เป็นทรัพย์สินของ Valve Corporation ใช้เพื่อการศึกษา</p>
+
+    <div class="heroes">
+      
+      <article class="hero-card">
+        <div class="hero-card__portrait">
+          <span class="hero-card__fallback" data-letter="A" aria-hidden="true"></span>
+          <img src="https://deadlock.wiki/images/6/6d/Abrams_card.png" alt="ภาพตัวละคร Abrams จากเกม Deadlock"
+               loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <h3 class="hero-card__name">Abrams</h3>
+        <p class="hero-card__role">บทบาท: แทงค์ / บุกกลางวง</p>
+        <button class="reveal-btn" type="button" aria-expanded="false" aria-controls="skill-abrams">
+          เปิดดูสกิล
+        </button>
+        <div class="hero-card__skills" id="skill-abrams" hidden>
+          <p>นักสืบจอมบึกบึนแห่งนิวยอร์ก เลือดเยอะ ทนทาน เน้นบุกกลางวงเพื่อแยกและล็อกเป้าหมาย</p>
+          <ul class="skill-list">
+            <li><b>Siphon Life</b> — ดูดเลือดศัตรูรอบตัวมาเป็นพลังชีวิตของตัวเอง</li>
+            <li><b>Shoulder Charge</b> — พุ่งชนดึงศัตรู ถ้าอัดเข้ากำแพงจะสตัน</li>
+            <li><b>Seismic Impact</b> <span class="ult">ไม้ตาย</span> — กระโดดสูงแล้วทุบพื้น สร้างดาเมจและสตันเป็นวงกว้าง</li>
+          </ul>
+        </div>
+      </article>
+
+      
+      <article class="hero-card">
+        <div class="hero-card__portrait">
+          <span class="hero-card__fallback" data-letter="H" aria-hidden="true"></span>
+          <img src="https://deadlock.wiki/images/1/1b/Haze_card.png" alt="ภาพตัวละคร Haze จากเกม Deadlock"
+               loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <h3 class="hero-card__name">Haze</h3>
+        <p class="hero-card__role">บทบาท: นักลอบสังหาร / ดาเมจสูง</p>
+        <button class="reveal-btn" type="button" aria-expanded="false" aria-controls="skill-haze">
+          เปิดดูสกิล
+        </button>
+        <div class="hero-card__skills" id="skill-haze" hidden>
+          <p>สายลับหญิงจากหน่วย Sandman เชี่ยวชาญการลอบสังหาร แยกเป้าหมายแล้วเก็บทีละตัว</p>
+          <ul class="skill-list">
+            <li><b>Sleep Dagger</b> — ขว้างมีดทำให้ศัตรูหลับ เปิดจังหวะเข้าโจมตี</li>
+            <li><b>Smoke Bomb</b> — ปล่อยควันพรางตัว เพื่อลอบเข้าหาหรือหลบหนี</li>
+            <li><b>Bullet Dance</b> <span class="ult">ไม้ตาย</span> — ลอยตัวแล้วกระหน่ำยิงรัวใส่ศัตรูรอบด้าน</li>
+          </ul>
+        </div>
+      </article>
+
+      
+      <article class="hero-card">
+        <div class="hero-card__portrait">
+          <span class="hero-card__fallback" data-letter="I" aria-hidden="true"></span>
+          <img src="https://deadlock.wiki/images/6/6b/Infernus_card.png" alt="ภาพตัวละคร Infernus จากเกม Deadlock"
+               loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <h3 class="hero-card__name">Infernus</h3>
+        <p class="hero-card__role">บทบาท: เผาผลาญต่อเนื่อง / บุกเร็ว</p>
+        <button class="reveal-btn" type="button" aria-expanded="false" aria-controls="skill-infernus">
+          เปิดดูสกิล
+        </button>
+        <div class="hero-card__skills" id="skill-infernus" hidden>
+          <p>นักวางเพลิงผู้ควบคุมเปลวไฟ เร่งความเร็วตัวเอง แล้วจุดไฟเผาศัตรูให้รับดาเมจต่อเนื่อง</p>
+          <ul class="skill-list">
+            <li><b>Catalyst</b> — พ่นเชื้อเพลิงทำให้ศัตรูติดไฟและรับดาเมจเพิ่มขึ้น</li>
+            <li><b>Flame Dash</b> — พุ่งทิ้งรอยไฟไว้ ใช้ไล่ล่าหรือหนีได้คล่อง</li>
+            <li><b>Concussive Combustion</b> <span class="ult">ไม้ตาย</span> — ระเบิดไฟใส่ศัตรูรอบตัวพร้อมสร้างความปั่นป่วน</li>
+          </ul>
+        </div>
+      </article>
+
+      
+      <article class="hero-card">
+        <div class="hero-card__portrait">
+          <span class="hero-card__fallback" data-letter="S" aria-hidden="true"></span>
+          <img src="https://deadlock.wiki/images/c/cf/Seven_card.png" alt="ภาพตัวละคร Seven จากเกม Deadlock"
+               loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <h3 class="hero-card__name">Seven</h3>
+        <p class="hero-card__role">บทบาท: คุมพื้นที่ / ไฟฟ้าแรงสูง</p>
+        <button class="reveal-btn" type="button" aria-expanded="false" aria-controls="skill-seven">
+          เปิดดูสกิล
+        </button>
+        <div class="hero-card__skills" id="skill-seven" hidden>
+          <p>จอมพลังไฟฟ้าผู้หิวกระหายอำนาจ เก่งการคุมพื้นที่และลงโทษศัตรูที่รวมกลุ่มกัน</p>
+          <ul class="skill-list">
+            <li><b>Lightning Ball</b> — ปล่อยลูกไฟฟ้าลอยช้า ๆ คอยกดดันและคุมพื้นที่</li>
+            <li><b>Static Charge</b> — ฝังประจุที่จะสตันเป้าหมายหลังหน่วงเวลา</li>
+            <li><b>Storm Cloud</b> <span class="ult">ไม้ตาย</span> — กลายเป็นพายุไฟฟ้า สร้างดาเมจมหาศาลรอบตัว</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  
+  <section class="section section--feature reveal" id="future">
+    <p class="section__eyebrow">ส่วนที่ 04</p>
+    <h2 class="section__title">ทำไม Deadlock ถึงน่าจับตามอง</h2>
+    <p class="section__lead">
+      แม้จะยังอยู่ในช่วงทดสอบ แต่ Deadlock ได้รับความสนใจอย่างมากจากชุมชนเกมเมอร์ทั่วโลก
+      ด้วยการผสมแนวเกมที่แปลกใหม่ และการอัปเดตใหญ่อย่างต่อเนื่องจาก Valve
+    </p>
+
+    <div class="update">
+      <p class="update__tag">อัปเดตล่าสุด</p>
+      <h3 class="update__name">Old Gods, New Blood</h3>
+      <ul class="update__list">
+        <li>ปรับโฉม Patron และฐานใหม่ทั้งหมด</li>
+        <li>เพิ่มฮีโร่ใหม่ถึง 6 ตัว</li>
+        <li>โหมดเล่นเร็ว "Street Brawl"</li>
+        <li>ปรับ HUD และระบบหลังจบเกม พร้อมหน้าจอ MVP</li>
+      </ul>
+      <p class="update__note">ที่มา: ประกาศอัปเดตอย่างเป็นทางการจาก playdeadlock.com</p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer__sigil" aria-hidden="true"></div>
+    <p class="footer__title">DEADLOCK</p>
+    <p class="footer__by">เว็บไซต์รีวิวโดย ธนสรณ์ — กิจกรรม One-page Website</p>
+
+    <div class="footer__sources">
+      <span>แหล่งข้อมูล:</span>
+      <a href="https://www.playdeadlock.com" target="_blank" rel="noopener">playdeadlock.com</a>
+      <a href="https://deadlock.wiki" target="_blank" rel="noopener">deadlock.wiki</a>
+      <a href="https://store.steampowered.com" target="_blank" rel="noopener">Steam</a>
+    </div>
+
+    <p class="footer__credit">
+      Deadlock เป็นเครื่องหมายการค้าของ Valve Corporation
+      เว็บนี้จัดทำเพื่อการศึกษาเท่านั้น · ออกแบบและเรียบเรียงโดยใช้ AI ช่วย แล้วปรับแก้เนื้อหาเอง
+    </p>
+    <a class="footer__top" href="#top">กลับขึ้นบน ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
